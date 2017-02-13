@@ -7,7 +7,7 @@ const socketServer = require('./config/sockets');
 const errorHandler = require('errorhandler');
 
 /**
- * Create Express server.x
+ * Create Express server
  */
  var app = express();
  var http = require('http').Server(app);
