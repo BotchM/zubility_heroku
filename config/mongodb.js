@@ -12,8 +12,8 @@ module.exports = (mongoose) => {
    * Connect to MongoDB.
    */
   mongoose.Promise = global.Promise;
-  //mongoose.connect(process.env.MONGODB_URI || process.env.MONGOLAB_URI);
-  mongoose.connect(process.env.MONGOLAB_URI); //local mongo database
+  mongoose.connect(process.env.MONGODB_URI || process.env.MONGOLAB_URI);
+  //mongoose.connect(process.env.MONGOLAB_URI); //local mongo database
   mongoose.connection.on('connected', () => {
     console.log('%s MongoDB connection established!', chalk.green('✓'));
   });
