@@ -262,7 +262,7 @@ th {
 .glyphicon-eur:before {
   content: "\20ac"; }
 
-.glyphicon-minus:before {git 
+.glyphicon-minus:before {
   content: "\2212"; }
 
 .glyphicon-cloud:before {
@@ -1034,7 +1034,7 @@ th {
   content: "\e258"; }
 
 .glyphicon-menu-down:before {
-  content: "\e259"; }x
+  content: "\e259"; }
 
 .glyphicon-menu-up:before {
   content: "\e260"; }
