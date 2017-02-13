@@ -1034,7 +1034,7 @@ th {
   content: "\e258"; }
 
 .glyphicon-menu-down:before {
-  content: "\e259"; }
+  content: "\e259"; }x
 
 .glyphicon-menu-up:before {
   content: "\e260"; }
@@ -8931,8 +8931,8 @@ textarea {
   margin-top: 20px; }
 
 .img-responsive {
-  max-width: 100%;
-  max-height: 100%; }
+  display: block;
+  vertical-align: bottom; }
 
 .thumbnail {
   padding: 0;

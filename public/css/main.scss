@@ -41,6 +41,7 @@ textarea {
 // Navbar
 // -------------------------
 
+
 .navbar-nav img {
   width: 30px;
   height: 30px;
@@ -55,9 +56,8 @@ textarea {
 }
 
 .img-responsive {
-  width:100%;
-  height:698px;
-  repeat-x;
+  display: block;
+  vertical-align:bottom;
 }
 
 // Thumbnails
