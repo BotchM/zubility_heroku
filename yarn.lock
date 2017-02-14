@@ -910,8 +910,8 @@ hooks-fixed@1.2.0:
   resolved "https://registry.yarnpkg.com/hooks-fixed/-/hooks-fixed-1.2.0.tgz#0d2772d4d7d685ff9244724a9f0b5b2559aac96b"
 
 hosted-git-info@^2.1.4:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.1.5.tgz#0ba81d90da2e25ab34a332e6ec77936e1598118b"
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.2.0.tgz#7a0d097863d886c0fabbdcd37bf1758d8becf8a5"
 
 http-errors@~1.5.0:
   version "1.5.1"
@@ -1526,16 +1526,16 @@ node-pre-gyp@^0.6.29:
     tar "~2.2.1"
     tar-pack "~3.3.0"
 
-node-sass-middleware@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/node-sass-middleware/-/node-sass-middleware-0.10.1.tgz#5e2f22d6b48b636ab9d60d0122203ba4fda119db"
+node-sass-middleware@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/node-sass-middleware/-/node-sass-middleware-0.11.0.tgz#2ab56124362941102e2cd54d8a1c1cef445afb15"
   dependencies:
     mkdirp "^0.5.1"
-    node-sass "^4.1.1"
+    node-sass "^4.3.0"
 
-node-sass@^4.1.1:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.2.0.tgz#ef3e686c119118e01b0a3c7345821a0d7400acf2"
+node-sass@^4.3.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.0.tgz#532e37bad0ce587348c831535dbc98ea4289508b"
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
